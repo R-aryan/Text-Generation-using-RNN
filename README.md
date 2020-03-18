@@ -1,1 +1,1 @@
-# Text-Generation-using-RNN
+# Text Generation Using RNN
