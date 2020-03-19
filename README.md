@@ -1,1 +1,2 @@
-# Text Generation Using RNN
+# Text Generation with Neural Networks
+
