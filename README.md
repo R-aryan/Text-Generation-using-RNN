@@ -13,3 +13,8 @@ We'll choose all of shakespeare's works (which we have already downloaded for yo
 1. Its a large corpus of text, its usually recommended you have at least a source of 1 million characters total to get realistic text generation.
 
 2. It has a very distinctive style. Since the text data uses old style english and is formatted in the style of a stage play, it will be very obvious to us if the model is able to reproduce similar results.
+
+
+## Inference
+
+For Inference purpose the model/weights can be downloaded from here
