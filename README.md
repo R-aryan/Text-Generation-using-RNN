@@ -17,4 +17,5 @@ We'll choose all of shakespeare's works (which we have already downloaded for yo
 
 ## Inference
 
-For Inference purpose the model/weights can be downloaded from here :- https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9
+For Inference purpose the model/weights can be downloaded from here :- 
+- [Download Weights/Model](https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9)
