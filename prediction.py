@@ -9,6 +9,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+#importing tenserflow libraries
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM,Dense,Embedding,Dropout,GRU
+from tensorflow.keras.losses import sparse_categorical_crossentropy
+from tensorflow.keras.models import load_model
+
 train_path='shakespeare.txt'
 
 #reading the data from the text file
@@ -34,4 +40,6 @@ print(char_to_ind)
 
 ind_to_char = np.array(vocab)
 print(ind_to_char)
+
+
 
