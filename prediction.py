@@ -5,8 +5,8 @@
 
 import numpy as np
 import pandas as pd
-#import tensorflow as tf
 import matplotlib.pyplot as plt
+import config as cf
 
 
 #importing tenserflow libraries
@@ -15,18 +15,8 @@ from tensorflow.keras.layers import LSTM,Dense,Embedding,Dropout,GRU
 from tensorflow.keras.losses import sparse_categorical_crossentropy
 from tensorflow.keras.models import load_model
 
-train_path='shakespeare.txt'
 
-#reading the data from the text file
-text = open(train_path, 'r').read()
-print(text[:500])
-
-
-# The unique characters in the file
-vocab = sorted(set(text))
-print(vocab)
-length=len(vocab)
-print(length)
+vocab= cf.vocab
 
 #From the above output we can infer that the entire text corpus consists of 84 unique characters.
 
