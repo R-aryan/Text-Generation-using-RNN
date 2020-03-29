@@ -1,5 +1,9 @@
 train_path='shakespeare.txt'
 
+model_path= 'C:/Users/ritesharyan/Downloads/shakespeare_gen.h5'
+
+print(model_path)
+
 #reading the data from the text file
 text = open(train_path, 'r').read()
 #print(text[:500])
