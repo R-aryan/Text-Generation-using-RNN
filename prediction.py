@@ -30,3 +30,8 @@ print(length)
 char_to_ind = {u:i for i, u in enumerate(vocab)}
 print(char_to_ind)
 
+#converting from index to character
+
+ind_to_char = np.array(vocab)
+print(ind_to_char)
+
