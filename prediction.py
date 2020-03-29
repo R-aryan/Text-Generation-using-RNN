@@ -42,7 +42,7 @@ model.load_weights(cf.model_path)
 
 model.build(tf.TensorShape([1, None]))
 
-print("model created successfully in prediction file and here is the summary of the model.....\n")
+print("\n \n model created successfully in prediction file and here is the summary of the model.....\n")
 
 print(model.summary())
 
