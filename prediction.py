@@ -105,3 +105,6 @@ def generate_text(model, start_seed,gen_size=100,temp=1.0):
       text_generated.append(ind_to_char[predicted_id])
 
   return (start_seed + ''.join(text_generated))
+
+
+print(generate_text(model,"flower",gen_size=1000))
