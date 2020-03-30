@@ -40,3 +40,14 @@ def create_model(vocab_size, embed_dim, rnn_neurons, batch_size):
 
 
 # print("model created successfully")
+
+
+#creating the model
+model = create_model(cf.vocab_size, cf.embed_dim,cf. rnn_neurons, batch_size=1)
+
+model.load_weights(cf.model_path)
+
+model.build(tf.TensorShape([1, None]))
+
+print("\n \n model created successfully in models file file and here is the summary of the model.....\n")
+
