@@ -1,4 +1,4 @@
-train_path='shakespeare.txt'
+train_path='Dataset/shakespeare.txt'
 
 model_path= 'C:/Users/ritesharyan/Downloads/shakespeare_gen.h5'
 
