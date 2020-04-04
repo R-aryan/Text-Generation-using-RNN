@@ -18,8 +18,10 @@ We'll choose all of shakespeare's works (which we have already downloaded for yo
 ## Training the Neural Network
 For Training purpose-
 
-- Clone The Repository by **git clone https://github.com/R-aryan/Text-Generation-using-RNN.git**
+- Clone The Repository by git clone https://github.com/R-aryan/Text-Generation-using-RNN.git
 - Navigate to the **Training Directory**
+- Open the **Text_generation_using_RNN.ipynb** Notebook
+- Since the Notebbok is trained on colab the dataset/training path is according to colab directory structure so that should be changed accordingly.
 
 
 ## Inference
