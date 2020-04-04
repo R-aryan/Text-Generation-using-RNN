@@ -22,12 +22,12 @@ For Training purpose-
 - Navigate to the **Training Directory**
 - Open the **Text_generation_using_RNN.ipynb** Notebook
 - Since the Notebbok is trained on colab the dataset/training path is according to colab directory structure so that should be changed accordingly.
-- Run the notebbok from the start, Training will take some time. After Training is done the model will be saved as an **model_name.h5** file ,again the path where you want to save the model should be changed accordingly, before running the notebook
+- Run the notebbok from the start, Training will take some time. After Training is done the model will be saved as an **model_name.h5** file ,again the path where you want to save the model should be changed accordingly, before running the notebook.
 
 
 ## Inference
 
-For Inference purpose the model/weights can be downloaded from here :- 
-- [Download Weights/Model](https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9)
+For Inference purpose-
+- The model/weights can be downloaded from here :- [Download Weights/Model](https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9)
 
 
