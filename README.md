@@ -29,5 +29,5 @@ For Training purpose-
 
 For Inference purposem we will use the saved model or saved model can also be downloaded from here-
 - The model/weights can be downloaded from here :- [Download Weights/Model](https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9)
-
+- After downloading/saving the trained model navigate to yhe inference folder.
 
