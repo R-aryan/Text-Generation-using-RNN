@@ -31,4 +31,5 @@ For Inference purposem we will use the saved model or saved model can also be do
 - The model/weights can be downloaded from here :- [Download Weights/Model](https://drive.google.com/open?id=1-346UfIYLVMRXU3tKY_euip9u2mLRTG9)
 - After downloading/saving the trained model navigate to the **inference folder and open the config.py file.**
 - Change the value of **model_path variable in config.py file**  according to the directory where the saved model is stored.
+- After changing the path run **predict.py** script in the config directory to get the predictions. 
 
